@@ -60,7 +60,7 @@ const customStyles = StyleSheet.create({
     padding: 10,
     marginTop: 20,
   },
-  
+
   circleTextStyle: {
     color: 'white',
     fontSize: 30,

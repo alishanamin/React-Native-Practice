@@ -52,8 +52,8 @@ export default function ElevatedCards() {
 
 const styles = StyleSheet.create({
   container: {
-paddingTop:10,
-paddingBottom:10,
+    paddingTop: 10,
+    paddingBottom: 10,
     flex: 1,
   },
   card: {

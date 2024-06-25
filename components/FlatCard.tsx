@@ -12,6 +12,7 @@ export default function FlatCard() {
         {colors.map((color, index) => (
           <TouchableOpacity
             onPress={() => {
+                
               switch (color) {
                 case colors[0]:
                   console.log(color, 'R');
