@@ -35,7 +35,7 @@ export default function ContactList() {
           <View key={contact.uid} style={styles.container}>
             <View style={[customStyles.circle, styles.imageContainer]}>
               <Image
-                style={{height: 60, width: 60, borderRadius: 25}}
+                style={{height: 60, width: 50, borderRadius: 25}}
                 source={{
                   uri: contact.image,
                 }}></Image>
