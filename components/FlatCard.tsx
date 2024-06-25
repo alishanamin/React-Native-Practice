@@ -12,7 +12,6 @@ export default function FlatCard() {
         {colors.map((color, index) => (
           <TouchableOpacity
             onPress={() => {
-                
               switch (color) {
                 case colors[0]:
                   console.log(color, 'R');
@@ -28,7 +27,7 @@ export default function FlatCard() {
               }
             }}>
             <View
-              key={index}
+              key={color}
               style={[styles.square, {backgroundColor: color.toLowerCase()}]}>
               <Text style={styles.textStyle}>Color: {color}</Text>
             </View>

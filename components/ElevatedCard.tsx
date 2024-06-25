@@ -33,7 +33,7 @@ export default function ElevatedCards() {
       <ScrollView horizontal={true} style={styles.container}>
         {[...Array(images.length).keys()].map(index => (
           <TouchableOpacity onPress={() => loadUri()}>
-            <View style={styles.card}>
+            <View key={index} style={styles.card}>
               <Image
                 style={customStyles.imageStyle}
                 source={{

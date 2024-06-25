@@ -13,17 +13,17 @@ import FlatCard from './components/FlatCard';
 import ElevatedCards from './components/ElevatedCard.tsx';
 import FancyCard from './components/FancyCard.tsx';
 import customStyles from './components/CustomStyles/customstyles.tsx';
+import ContactList from './components/ContactList.tsx';
 
 function App() {
   return (
     <SafeAreaView style={customStyles.mainBody}>
       <ScrollView style={customStyles.mainBody}>
         <FlatCard />
-        <ElevatedCards />
-        <ElevatedCards />
+        <ElevatedCards />  
         <FancyCard />
-        <FancyCard />
-        <FancyCard />
+        <ContactList/>
+        <View style={{height: 20}}></View>
       </ScrollView>
     </SafeAreaView>
   );

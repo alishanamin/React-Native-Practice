@@ -2,9 +2,15 @@ import {StyleSheet} from 'react-native';
 
 const customStyles = StyleSheet.create({
   headingText: {
-    fontSize: 22,
+    fontSize: 18,
     fontWeight: 'bold',
     color: 'black',
+  },
+  contactListTextStyle:{
+    color: 'white',
+    fontSize: 15,
+    fontWeight: '400',
+
   },
   textStyle: {
     color: 'white',
@@ -58,7 +64,7 @@ const customStyles = StyleSheet.create({
     flex: 1,
     backgroundColor: 'white',
     padding: 10,
-    marginTop: 20,
+    marginTop:10,
   },
 
   circleTextStyle: {
@@ -79,11 +85,11 @@ const customStyles = StyleSheet.create({
   },
 
   circle: {
-    height: 150,
-    width: 150,
-    borderRadius: 75,
+    height: 50,
+    width: 50,
+    borderRadius: 25,
     backgroundColor: 'red',
-    margin: 20.0,
+    margin: 10.0,
     justifyContent: 'center',
     alignItems: 'center',
   },
