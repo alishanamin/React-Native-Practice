@@ -3,6 +3,8 @@ import React from 'react';
 import customStyles from './CustomStyles/customstyles';
 
 export default function FancyCard() {
+
+  
   return (
     <View style={styles.wrapper}>
       <Text style={customStyles.headingText}>FancyCard</Text>

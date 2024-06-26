@@ -72,5 +72,5 @@ const styles = StyleSheet.create({
     flex: 1,
     padding: 5,
   },
-  circleImageStyle:{height: 60, width: 60, borderRadius: 30}
+  circleImageStyle: {height: 60, width: 60, borderRadius: 30},
 });
