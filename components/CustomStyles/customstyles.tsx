@@ -2,9 +2,11 @@ import {StyleSheet} from 'react-native';
 
 const customStyles = StyleSheet.create({
   headingText: {
-    fontSize: 18,
+    fontSize: 22,
     fontWeight: 'bold',
-    color: 'black',
+    color: 'blue',
+    fontStyle:'italic',
+  
   },
   contactListTextStyle:{
     color: 'white',
@@ -25,6 +27,13 @@ const customStyles = StyleSheet.create({
     fontSize: 25,
     fontWeight: 'bold',
     padding: 8,
+  },
+  fancyCardTimeTextStyle:{
+    color: 'black',
+    fontSize: 12,
+    fontStyle: 'italic',
+    paddingLeft: 8,
+    textAlign:'right'
   },
   fancyCardLabelStyle: {
     color: 'black',

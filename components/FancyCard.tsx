@@ -23,6 +23,7 @@ export default function FancyCard() {
           soluta explicabo numquam tempore eos magni expedita nihil sit iste
           voluptate obcaecati?
         </Text>
+        <Text style={customStyles.fancyCardTimeTextStyle}>23 mins ago</Text>
       </View>
     </View>
   );
@@ -42,12 +43,12 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.3,
     shadowRadius: 5,
     elevation: 2, 
+    padding:10
   },
   card: {
-    height: 300,
     width: '100%',
     borderRadius: 20.0,
     backgroundColor: 'white', 
-    padding: 0,
+   
   },
 });
