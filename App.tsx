@@ -18,6 +18,7 @@ import FancyCard from './components/FancyCard.tsx';
 import customStyles from './components/CustomStyles/customstyles.tsx';
 import ContactList from './components/ContactList.tsx';
 import CustomTextField from './components/CustomTextField.tsx';
+import ColorChange from './components/ColorChange.tsx';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
               <FancyCard />
               <ContactList />
               <CustomTextField />
+              <ColorChange/>
               <View style={{height: 20}}></View>
             </View>
           </TouchableWithoutFeedback>

@@ -81,7 +81,7 @@ const customStyles = StyleSheet.create({
     fontSize: 30,
     fontWeight: 'bold',
     textAlign: 'center',
-    position: 'absolute',
+  //  position: 'absolute',
     justifyContent: 'center',
     alignItems: 'center',
   },
@@ -113,7 +113,7 @@ const customStyles = StyleSheet.create({
   },
 
   rectangle: {
-    height: 120,
+    height: 150,
     width: 250,
     backgroundColor: 'pink',
     margin: 20.0,
